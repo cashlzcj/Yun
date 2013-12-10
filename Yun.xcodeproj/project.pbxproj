@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F79D38F018501DD5005FBCD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79D38EF18501DD5005FBCD2 /* Foundation.framework */; };
+		F79D38F218501DD5005FBCD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79D38F118501DD5005FBCD2 /* CoreGraphics.framework */; };
+		F79D38F418501DD5005FBCD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79D38F318501DD5005FBCD2 /* UIKit.framework */; };
+		F79D38FA18501DD5005FBCD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F79D38F818501DD5005FBCD2 /* InfoPlist.strings */; };
+		F79D38FC18501DD5005FBCD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F79D38FB18501DD5005FBCD2 /* main.m */; };
+		F79D390018501DD5005FBCD2 /* LJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F79D38FF18501DD5005FBCD2 /* LJAppDelegate.m */; };
+		F79D390218501DD5005FBCD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F79D390118501DD5005FBCD2 /* Images.xcassets */; };
+		F79D390918501DD5005FBCD2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79D390818501DD5005FBCD2 /* XCTest.framework */; };
+		F79D390A18501DD5005FBCD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79D38EF18501DD5005FBCD2 /* Foundation.framework */; };
+		F79D390B18501DD5005FBCD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79D38F318501DD5005FBCD2 /* UIKit.framework */; };
+		F79D391318501DD5005FBCD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F79D391118501DD5005FBCD2 /* InfoPlist.strings */; };
+		F79D391518501DD5005FBCD2 /* YunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F79D391418501DD5005FBCD2 /* YunTests.m */; };
+		F79D392318501E1F005FBCD2 /* QuadCurveMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F79D392018501E1F005FBCD2 /* QuadCurveMenu.m */; };
+		F79D392418501E1F005FBCD2 /* QuadCurveMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F79D392218501E1F005FBCD2 /* QuadCurveMenuItem.m */; };
+		F79D392C18501F77005FBCD2 /* home_cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = F79D392618501F77005FBCD2 /* home_cloud.png */; };
+		F79D392D18501F77005FBCD2 /* home_cloud1.png in Resources */ = {isa = PBXBuildFile; fileRef = F79D392718501F77005FBCD2 /* home_cloud1.png */; };
+		F79D392E18501F77005FBCD2 /* home_cloud2.png in Resources */ = {isa = PBXBuildFile; fileRef = F79D392818501F77005FBCD2 /* home_cloud2.png */; };
+		F79D392F18501F77005FBCD2 /* home_cloud3.png in Resources */ = {isa = PBXBuildFile; fileRef = F79D392918501F77005FBCD2 /* home_cloud3.png */; };
+		F79D393018501F77005FBCD2 /* home_cloud4.png in Resources */ = {isa = PBXBuildFile; fileRef = F79D392A18501F77005FBCD2 /* home_cloud4.png */; };
+		F79D393118501F77005FBCD2 /* home_cloud5.png in Resources */ = {isa = PBXBuildFile; fileRef = F79D392B18501F77005FBCD2 /* home_cloud5.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F79D390C18501DD5005FBCD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F79D38E418501DD5005FBCD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F79D38EB18501DD5005FBCD2;
+			remoteInfo = Yun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F79D38EC18501DD5005FBCD2 /* Yun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F79D38EF18501DD5005FBCD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F79D38F118501DD5005FBCD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F79D38F318501DD5005FBCD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F79D38F718501DD5005FBCD2 /* Yun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yun-Info.plist"; sourceTree = "<group>"; };
+		F79D38F918501DD5005FBCD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F79D38FB18501DD5005FBCD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F79D38FD18501DD5005FBCD2 /* Yun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yun-Prefix.pch"; sourceTree = "<group>"; };
+		F79D38FE18501DD5005FBCD2 /* LJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJAppDelegate.h; sourceTree = "<group>"; };
+		F79D38FF18501DD5005FBCD2 /* LJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJAppDelegate.m; sourceTree = "<group>"; };
+		F79D390118501DD5005FBCD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F79D390718501DD5005FBCD2 /* YunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F79D390818501DD5005FBCD2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F79D391018501DD5005FBCD2 /* YunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YunTests-Info.plist"; sourceTree = "<group>"; };
+		F79D391218501DD5005FBCD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F79D391418501DD5005FBCD2 /* YunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YunTests.m; sourceTree = "<group>"; };
+		F79D391F18501E1F005FBCD2 /* QuadCurveMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadCurveMenu.h; sourceTree = "<group>"; };
+		F79D392018501E1F005FBCD2 /* QuadCurveMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadCurveMenu.m; sourceTree = "<group>"; };
+		F79D392118501E1F005FBCD2 /* QuadCurveMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadCurveMenuItem.h; sourceTree = "<group>"; };
+		F79D392218501E1F005FBCD2 /* QuadCurveMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadCurveMenuItem.m; sourceTree = "<group>"; };
+		F79D392618501F77005FBCD2 /* home_cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_cloud.png; sourceTree = "<group>"; };
+		F79D392718501F77005FBCD2 /* home_cloud1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_cloud1.png; sourceTree = "<group>"; };
+		F79D392818501F77005FBCD2 /* home_cloud2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_cloud2.png; sourceTree = "<group>"; };
+		F79D392918501F77005FBCD2 /* home_cloud3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_cloud3.png; sourceTree = "<group>"; };
+		F79D392A18501F77005FBCD2 /* home_cloud4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_cloud4.png; sourceTree = "<group>"; };
+		F79D392B18501F77005FBCD2 /* home_cloud5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_cloud5.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F79D38E918501DD5005FBCD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79D38F218501DD5005FBCD2 /* CoreGraphics.framework in Frameworks */,
+				F79D38F418501DD5005FBCD2 /* UIKit.framework in Frameworks */,
+				F79D38F018501DD5005FBCD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F79D390418501DD5005FBCD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79D390918501DD5005FBCD2 /* XCTest.framework in Frameworks */,
+				F79D390B18501DD5005FBCD2 /* UIKit.framework in Frameworks */,
+				F79D390A18501DD5005FBCD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F79D38E318501DD5005FBCD2 = {
+			isa = PBXGroup;
+			children = (
+				F79D38F518501DD5005FBCD2 /* Yun */,
+				F79D390E18501DD5005FBCD2 /* YunTests */,
+				F79D38EE18501DD5005FBCD2 /* Frameworks */,
+				F79D38ED18501DD5005FBCD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F79D38ED18501DD5005FBCD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F79D38EC18501DD5005FBCD2 /* Yun.app */,
+				F79D390718501DD5005FBCD2 /* YunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F79D38EE18501DD5005FBCD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F79D38EF18501DD5005FBCD2 /* Foundation.framework */,
+				F79D38F118501DD5005FBCD2 /* CoreGraphics.framework */,
+				F79D38F318501DD5005FBCD2 /* UIKit.framework */,
+				F79D390818501DD5005FBCD2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F79D38F518501DD5005FBCD2 /* Yun */ = {
+			isa = PBXGroup;
+			children = (
+				F79D391E18501E1F005FBCD2 /* Yun */,
+				F79D38FE18501DD5005FBCD2 /* LJAppDelegate.h */,
+				F79D38FF18501DD5005FBCD2 /* LJAppDelegate.m */,
+				F79D390118501DD5005FBCD2 /* Images.xcassets */,
+				F79D38F618501DD5005FBCD2 /* Supporting Files */,
+			);
+			path = Yun;
+			sourceTree = "<group>";
+		};
+		F79D38F618501DD5005FBCD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F79D392518501F77005FBCD2 /* images */,
+				F79D38F718501DD5005FBCD2 /* Yun-Info.plist */,
+				F79D38F818501DD5005FBCD2 /* InfoPlist.strings */,
+				F79D38FB18501DD5005FBCD2 /* main.m */,
+				F79D38FD18501DD5005FBCD2 /* Yun-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F79D390E18501DD5005FBCD2 /* YunTests */ = {
+			isa = PBXGroup;
+			children = (
+				F79D391418501DD5005FBCD2 /* YunTests.m */,
+				F79D390F18501DD5005FBCD2 /* Supporting Files */,
+			);
+			path = YunTests;
+			sourceTree = "<group>";
+		};
+		F79D390F18501DD5005FBCD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F79D391018501DD5005FBCD2 /* YunTests-Info.plist */,
+				F79D391118501DD5005FBCD2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F79D391E18501E1F005FBCD2 /* Yun */ = {
+			isa = PBXGroup;
+			children = (
+				F79D391F18501E1F005FBCD2 /* QuadCurveMenu.h */,
+				F79D392018501E1F005FBCD2 /* QuadCurveMenu.m */,
+				F79D392118501E1F005FBCD2 /* QuadCurveMenuItem.h */,
+				F79D392218501E1F005FBCD2 /* QuadCurveMenuItem.m */,
+			);
+			path = Yun;
+			sourceTree = "<group>";
+		};
+		F79D392518501F77005FBCD2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F79D392618501F77005FBCD2 /* home_cloud.png */,
+				F79D392718501F77005FBCD2 /* home_cloud1.png */,
+				F79D392818501F77005FBCD2 /* home_cloud2.png */,
+				F79D392918501F77005FBCD2 /* home_cloud3.png */,
+				F79D392A18501F77005FBCD2 /* home_cloud4.png */,
+				F79D392B18501F77005FBCD2 /* home_cloud5.png */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F79D38EB18501DD5005FBCD2 /* Yun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F79D391818501DD6005FBCD2 /* Build configuration list for PBXNativeTarget "Yun" */;
+			buildPhases = (
+				F79D38E818501DD5005FBCD2 /* Sources */,
+				F79D38E918501DD5005FBCD2 /* Frameworks */,
+				F79D38EA18501DD5005FBCD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yun;
+			productName = Yun;
+			productReference = F79D38EC18501DD5005FBCD2 /* Yun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F79D390618501DD5005FBCD2 /* YunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F79D391B18501DD6005FBCD2 /* Build configuration list for PBXNativeTarget "YunTests" */;
+			buildPhases = (
+				F79D390318501DD5005FBCD2 /* Sources */,
+				F79D390418501DD5005FBCD2 /* Frameworks */,
+				F79D390518501DD5005FBCD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F79D390D18501DD5005FBCD2 /* PBXTargetDependency */,
+			);
+			name = YunTests;
+			productName = YunTests;
+			productReference = F79D390718501DD5005FBCD2 /* YunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F79D38E418501DD5005FBCD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LJ;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = xh;
+				TargetAttributes = {
+					F79D390618501DD5005FBCD2 = {
+						TestTargetID = F79D38EB18501DD5005FBCD2;
+					};
+				};
+			};
+			buildConfigurationList = F79D38E718501DD5005FBCD2 /* Build configuration list for PBXProject "Yun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F79D38E318501DD5005FBCD2;
+			productRefGroup = F79D38ED18501DD5005FBCD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F79D38EB18501DD5005FBCD2 /* Yun */,
+				F79D390618501DD5005FBCD2 /* YunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F79D38EA18501DD5005FBCD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79D393018501F77005FBCD2 /* home_cloud4.png in Resources */,
+				F79D38FA18501DD5005FBCD2 /* InfoPlist.strings in Resources */,
+				F79D392C18501F77005FBCD2 /* home_cloud.png in Resources */,
+				F79D392F18501F77005FBCD2 /* home_cloud3.png in Resources */,
+				F79D392D18501F77005FBCD2 /* home_cloud1.png in Resources */,
+				F79D392E18501F77005FBCD2 /* home_cloud2.png in Resources */,
+				F79D393118501F77005FBCD2 /* home_cloud5.png in Resources */,
+				F79D390218501DD5005FBCD2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F79D390518501DD5005FBCD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79D391318501DD5005FBCD2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F79D38E818501DD5005FBCD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79D392318501E1F005FBCD2 /* QuadCurveMenu.m in Sources */,
+				F79D390018501DD5005FBCD2 /* LJAppDelegate.m in Sources */,
+				F79D392418501E1F005FBCD2 /* QuadCurveMenuItem.m in Sources */,
+				F79D38FC18501DD5005FBCD2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F79D390318501DD5005FBCD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79D391518501DD5005FBCD2 /* YunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F79D390D18501DD5005FBCD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F79D38EB18501DD5005FBCD2 /* Yun */;
+			targetProxy = F79D390C18501DD5005FBCD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F79D38F818501DD5005FBCD2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F79D38F918501DD5005FBCD2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F79D391118501DD5005FBCD2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F79D391218501DD5005FBCD2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F79D391618501DD5005FBCD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F79D391718501DD5005FBCD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F79D391918501DD6005FBCD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yun/Yun-Prefix.pch";
+				INFOPLIST_FILE = "Yun/Yun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F79D391A18501DD6005FBCD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yun/Yun-Prefix.pch";
+				INFOPLIST_FILE = "Yun/Yun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F79D391C18501DD6005FBCD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yun.app/Yun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yun/Yun-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YunTests/YunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F79D391D18501DD6005FBCD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yun.app/Yun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yun/Yun-Prefix.pch";
+				INFOPLIST_FILE = "YunTests/YunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F79D38E718501DD5005FBCD2 /* Build configuration list for PBXProject "Yun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F79D391618501DD5005FBCD2 /* Debug */,
+				F79D391718501DD5005FBCD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F79D391818501DD6005FBCD2 /* Build configuration list for PBXNativeTarget "Yun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F79D391918501DD6005FBCD2 /* Debug */,
+				F79D391A18501DD6005FBCD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F79D391B18501DD6005FBCD2 /* Build configuration list for PBXNativeTarget "YunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F79D391C18501DD6005FBCD2 /* Debug */,
+				F79D391D18501DD6005FBCD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F79D38E418501DD5005FBCD2 /* Project object */;
+}
